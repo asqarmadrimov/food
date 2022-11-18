@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+main {
+  height: 80vh;
+  background-image: url('./Utilst/images/images.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.meal-title {
+  overflow-x: auto;
+}
+
+.img-food {
+  max-width: 1000px;
+  max-height: 500px;
+}
