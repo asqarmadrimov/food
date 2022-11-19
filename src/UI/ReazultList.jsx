@@ -6,6 +6,7 @@ import Corusel from './Corusel';
 const ReazultList = ({ catalogy = [] }) => {
   return (
     <div className="text-start">
+      
       <Setion1 />
       <Corusel />
 

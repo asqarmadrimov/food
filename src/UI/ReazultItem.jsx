@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const ReazultItem = ({ item }) => {
+
   return (
       <li key={item.idCategory} className="card mx-auto my-2 bg-ligh" style={{width: '30rem'}}>
         <img src={item.strCategoryThumb} className="card-img-top" alt={item.strCategory}/>

@@ -20,6 +20,14 @@ main {
   background-position: top;
 }
 
+.btnHeart > svg {
+  color: white;
+}
+
+.btnHeart:active > svg {
+  color: red;
+}
+
 .meal-title {
   overflow-x: auto;
 }
