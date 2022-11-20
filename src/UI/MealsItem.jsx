@@ -6,9 +6,9 @@ const MealsItem = ({ item }) => {
 
   const[like, setLike] = useState(false);
 
-  const hendelBtn = () =>{
-    setLike(true)
-    localStorage.setItem('food', JSON.stringify(item))
+  function hendelBtn() {
+    setLike(true);
+    localStorage.setItem('food', JSON.stringify(item));
   }
   
 

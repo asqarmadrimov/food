@@ -26,26 +26,26 @@ const FoodItem = ({ item }) => {
         <div class="collapse collapse-horizontal" id="collapseWidthExample">
           <div class="card card-body" style={{ maxWidth: "500px" }}>
             <ul class="list-group">
-              {item.strIngredient1 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient1} && <b>{item.strMeasure1}</b></li>) : null}
-              {item.strIngredient2 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient2} && <b>{item.strMeasure2}</b></li>) : null}
-              {item.strIngredient3 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient3} && <b>{item.strMeasure3}</b></li>) : null}
-              {item.strIngredient4 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient4} && <b>{item.strMeasure4}</b></li>) : null}
-              {item.strIngredient5 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient5} && <b>{item.strMeasure5}</b></li>) : null}
-              {item.strIngredient6 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient6} && <b>{item.strMeasure6}</b></li>) : null}
-              {item.strIngredient7 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient7} && <b>{item.strMeasure7}</b></li>) : null}
-              {item.strIngredient8 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient8} && <b>{item.strMeasure8}</b></li>) : null}
-              {item.strIngredient9 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient9} && <b>{item.strMeasure9}</b></li>) : null}
-              {item.strIngredient10 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient10} && <b>{item.strMeasur10}</b></li>) : null}
-              {item.strIngredient11 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient11} && <b>{item.strMeasure11}</b></li>) : null}
-              {item.strIngredient12 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient12} && <b>{item.strMeasure12}</b></li>) : null}
-              {item.strIngredient13 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient13} && <b>{item.strMeasure13}</b></li>) : null}
-              {item.strIngredient14 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient14} && <b>{item.strMeasure14}</b></li>) : null}
-              {item.strIngredient15 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient15} && <b>{item.strMeasure15}</b></li>) : null}
-              {item.strIngredient16 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient16} && <b>{item.strMeasure16}</b></li>) : null}
-              {item.strIngredient17 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient17} && <b>{item.strMeasure17}</b></li>) : null}
-              {item.strIngredient18 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient18} && <b>{item.strMeasure18}</b></li>) : null}
-              {item.strIngredient19 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient19} && <b>{item.strMeasure19}</b></li>) : null}
-              {item.strIngredient20 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient20} && <b>{item.strMeasure20}</b></li>) : null}
+              {item.strIngredient1 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient1} <i>&</i> <b>{item.strMeasure1}</b></li>) : null}
+              {item.strIngredient2 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient2} <i>&</i> <b>{item.strMeasure2}</b></li>) : null}
+              {item.strIngredient3 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient3} <i>&</i> <b>{item.strMeasure3}</b></li>) : null}
+              {item.strIngredient4 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient4} <i>&</i> <b>{item.strMeasure4}</b></li>) : null}
+              {item.strIngredient5 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient5} <i>&</i> <b>{item.strMeasure5}</b></li>) : null}
+              {item.strIngredient6 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient6} <i>&</i> <b>{item.strMeasure6}</b></li>) : null}
+              {item.strIngredient7 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient7} <i>&</i> <b>{item.strMeasure7}</b></li>) : null}
+              {item.strIngredient8 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient8} <i>&</i> <b>{item.strMeasure8}</b></li>) : null}
+              {item.strIngredient9 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient9} <i>&</i> <b>{item.strMeasure9}</b></li>) : null}
+              {item.strIngredient10 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient10} <i>&</i> <b>{item.strMeasur10}</b></li>) : null}
+              {item.strIngredient11 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient11} <i>&</i> <b>{item.strMeasure11}</b></li>) : null}
+              {item.strIngredient12 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient12} <i>&</i> <b>{item.strMeasure12}</b></li>) : null}
+              {item.strIngredient13 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient13} <i>&</i> <b>{item.strMeasure13}</b></li>) : null}
+              {item.strIngredient14 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient14} <i>&</i> <b>{item.strMeasure14}</b></li>) : null}
+              {item.strIngredient15 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient15} <i>&</i> <b>{item.strMeasure15}</b></li>) : null}
+              {item.strIngredient16 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient16} <i>&</i> <b>{item.strMeasure16}</b></li>) : null}
+              {item.strIngredient17 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient17} <i>&</i> <b>{item.strMeasure17}</b></li>) : null}
+              {item.strIngredient18 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient18} <i>&</i> <b>{item.strMeasure18}</b></li>) : null}
+              {item.strIngredient19 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient19} <i>&</i> <b>{item.strMeasure19}</b></li>) : null}
+              {item.strIngredient20 ? (<li class="list-group-item d-flex align-items-center justify-content-between">{item.strIngredient20} <i>&</i> <b>{item.strMeasure20}</b></li>) : null}
             </ul>
           </div>
         </div>
